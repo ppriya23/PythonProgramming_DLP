@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Project develops a predictive machine learning model to identify asthma disease risk using patient lifestyle, environmental and allergy factor, medical history, symptoms, clinical measurements. The dataset was sourced from Kaggle and is SYNTHETIC(artificially generated), making it ideal for educational purpose.
+This Project uses Python to develop a predictive machine learning model to identify asthma disease risk using patient lifestyle, environmental and allergy factor, medical history, symptoms, clinical measurements. The dataset was sourced from Kaggle and is SYNTHETIC(artificially generated), making it ideal for educational purpose.
 
 The project includes:
 - Exploratory Data Analysis(EDA) 
@@ -10,11 +10,12 @@ The project includes:
 - Handling imbalanced class with SMOTEEN
 - Model Training with Logistic Regression, Random Forest, XGBoost and evaluation using precision, Recall, f1-score and ROC-AUC 
 - Export the prediction and feature importances for PowerBI visualization.
+- Streamlit app for interactive prediction.
 
 ## Dataset Source:
 
 Asthma Disease Dataset on Kaggle https://www.kaggle.com/datasets/rabieelkharoua/asthma-disease-dataset/data
-Created and shared by (Author): Rabie El Kharoua
+Created and shared by (Author): Rabie El Kharoua(2024)
 
 ## Files
 
@@ -40,7 +41,7 @@ Created and shared by (Author): Rabie El Kharoua
 
 # Conclusion:
 
-Three csv file generated and stored in outputs_powerbi. Logistic Regression is chosen as the final model because for high recall which is better for healthcare screening. In healthcare, recall plays important role than accuracy because it measures how many asthma patients are correctly identified. Precision was low meaning we predicted some false positives. The dataset is synthetic, so real-world result might differ.  
+Three csv file generated and stored in outputs_powerbi. Logistic Regression is chosen as the final model because for high recall which is better for healthcare screening. In healthcare, recall plays important role than accuracy because it measures how many asthma patients are correctly identified. Precision was low meaning we predicted some false positives.  Note: The dataset is synthetic, meaning results may not fully reflect real world clinical performance.  
 
 
 
