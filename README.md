@@ -28,7 +28,8 @@ Created and shared by (Author): Rabie El Kharoua(2024)
 - top_15_feature_importances.csv : Feature importance value to use for visualization.
 - merged_csv_asthma_prediction.csv : Enriched dataset by merging two csv files i.e. Prediction and feature with calculating AsthmaRiskScore for visualization. How these factors affects asthma disease.
 - ScreenShot - Some screenshot taken from from PowerBI visualization and Streamlit app 
-- asthma_prediction_app.py : streamlit app for asthma prediction. It allows user to input patient details and receive prediction.  
+- asthma_prediction_app.py : streamlit app for asthma prediction. It allows user to input patient details and receive prediction. 
+- asthma_disease_PowerBi.pbix : This project includes a  Power BI dashboard built using the exported model out. You will need PowerBI desktop to open and explore the .pbix file 
 
 ## Dependencies
 
